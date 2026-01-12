@@ -37,7 +37,7 @@ def parse_args():
     parser.add_argument("--df_2", type=float, default=0.2)
     parser.add_argument("--de_2", type=float, default=0.2)
 
-    # specific for NodeMixup
+    # specific for mix
     parser.add_argument('--gamma', type=float, default=0.5, help="threshold for pseudo labeling")
     parser.add_argument('--beta_s', type=float, default=0.5,
                         help="tuning strength of NLP similarity in NLD-aware sampling")
